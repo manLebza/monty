@@ -74,4 +74,23 @@ stack_t **add_dnodeint(stack_t **head, const int n)
 	(*head)->prev = temp;
 	temp->next = (*head);
 	temp->prev = NULL;
+	*head = temp;
+	return (*head);
+}
 
+/**
+ * free_dlistint -> frees the doubly list
+ * @head: head of the linked list
+ * Return: void
+ */
+
+void free_dlistint(stack_t *head)
+{
+	stack_t *tmp;
+
+	while ((tmp = head) != NULL)
+	{
+		head = head->next;
+		free (tmp);
+	}
+}
