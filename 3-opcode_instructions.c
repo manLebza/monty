@@ -36,7 +36,7 @@ void _div(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * mul -> multiplies the top element by the second element from the top
+ * _mul -> multiplies the top element by the second element from the top
  * @doubly: head of linked list
  * @cline: line number
  * Return: void
@@ -65,7 +65,7 @@ void _mul(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _mod - computes all divisions of the second element by top element on stack
+ * _mod -> computes all divisions of the second element by top element on stack
  * @doubly: head of linked list
  * @cline: line number
  * Retrun: void

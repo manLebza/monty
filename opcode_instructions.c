@@ -18,8 +18,7 @@ void _push(stack_t **doubly, unsigned int cline)
 		free_vglo();
 		exit(EXIT_FAILURE);
 	}
-	
-	for (x( = 0; vglo.arg[x]) && vglo.arg[x] != '-')
+	for (x(= 0; vglo.arg[x]) && vglo.arg[x] != '-')
 	{
 		if (!isdigit(vglo.arg[x]) && vglo.arg[x] != '-')
 		{
@@ -51,7 +50,7 @@ void _pint(stack_t **doubly, unsigned int cline)
 
 	if (*doubly == NULL)
 	{
-		drintf(2, " ",cline);
+		drintf(2, " ", cline);
 		dprintf(2, "can't pint, stack empty\n");
 		free_vglo();
 		exit(EXIT_FAILURE);
