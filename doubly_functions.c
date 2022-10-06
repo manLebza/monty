@@ -21,7 +21,7 @@ stack_t *add_dnodeint_end(stack_t **head, const int n)
 		exit(EXIT_FAILURE);
 	}
 
-	temp->n =n;
+	temp->n = n;
 
 	if (*head == NULL)
 	{
@@ -42,7 +42,7 @@ stack_t *add_dnodeint_end(stack_t **head, const int n)
 
 /**
  * add_dnodeint -> adds a node at the beginning of the list
- * @haed: first postioon of the list
+ * @head: first postioon of the list
  * @n: data to store
  * Return: doubly linked list
  */
@@ -91,6 +91,6 @@ void free_dlistint(stack_t *head)
 	while ((tmp = head) != NULL)
 	{
 		head = head->next;
-		free (tmp);
+		free(tmp);
 	}
 }
