@@ -1,4 +1,4 @@
-Monty\n 
+Monty
 is an interpreter of Monty byteCode files, which is a scripting language
 just like python.
 
@@ -7,6 +7,8 @@ as a collaborative task done at ALX SE program.
 The languages or tools used were C programming language
 and gcc compilier with imput from the monty interpreter.
 
-Authors:\n
-manLeza @github.com\n
-Naomiel @github.com
+Authors:
+
+manLebza @github.com
+
+	Naomiel @github.com

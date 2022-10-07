@@ -55,7 +55,7 @@ char *_strtoky(char *s, char *d)
 {
 	static char *ultimo;
 	int i = 0, g = 0;
-	
+
 	if (!s)
 		s = ultimo;
 

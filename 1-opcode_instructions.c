@@ -18,7 +18,7 @@ void _push(stack_t **doubly, unsigned int cline)
 		free_vglo();
 		exit(EXIT_FAILURE);
 	}
-	for (x(= 0; vglo.arg[x]) && vglo.arg[x] != '-')
+	for (x( = 0; vglo.arg[x]) && vglo.arg[x] != '-')
 	{
 		if (!isdigit(vglo.arg[x]) && vglo.arg[x] != '-')
 		{
@@ -110,7 +110,7 @@ void _pop(stack_t **doubly, unsigned int cline)
 
 void _swap(stack_t **doubly, unsigned int cline)
 {
-	int m =0;
+	int m = 0;
 	stack_t *aux = NULL;
 
 	aux = *doubly;
